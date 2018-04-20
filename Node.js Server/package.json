@@ -1,0 +1,20 @@
+{
+  "name": "platformerserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "package": "electron-packager ./ BattleBlocksServer --all --out D:/Projects/BBServer --version 0.30.2 --overwrite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "electron-packager": "^10.1.0",
+    "electron-prebuilt": "^1.4.13"
+  }
+}
